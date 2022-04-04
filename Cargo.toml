@@ -1,0 +1,15 @@
+[package]
+name = "rust-mongodb"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mongodb = "2.1.0"
+dotenv = "0.15.0"
+tokio = "1.17.0"
+bson = { version = "2.1.0", features = ["chrono-0_4", "uuid-0_8"] } # Needed for using chrono datetime in doc
+chrono = "0.4.19" # Used for setting DateTimes
+serde = "1" # Used in the Map Data into Structs section
+uuid = "0.8.2"

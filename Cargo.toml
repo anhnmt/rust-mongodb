@@ -8,7 +8,7 @@ edition = "2021"
 [dependencies]
 mongodb = "2.1.0"
 dotenv = "0.15.0"
-tokio = "1.17.0"
+tokio = "1.18.4"
 bson = { version = "2.1.0", features = ["chrono-0_4", "uuid-0_8"] } # Needed for using chrono datetime in doc
 chrono = "0.4.19" # Used for setting DateTimes
 serde = "1" # Used in the Map Data into Structs section
